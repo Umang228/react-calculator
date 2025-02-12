@@ -263,3 +263,60 @@ h3 {
 	padding-bottom: 0.5px;
 	grid-area: 1 / 2 / 2 / 3;
 }
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px 15px;
+	background-color: #ff9e0b;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	white-space: nowrap;
+}
+
+.dark {
+	background-color: #121212;
+	color: white;
+}
+
+.dark .calculator {
+	background: #1e1e1e;
+	border: 1px solid #444;
+}
+
+.dark .output {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark button {
+	background-color: #444;
+	color: white;
+}
+
+.dark button:active {
+	background-color: #666;
+}
+
+.dark .top {
+	background-color: #555;
+}
+
+.dark .right {
+	background-color: #ff9e0b;
+}
+
+.dark .right:active {
+	background-color: #cb7d08;
+}
+
+.dark-mode-toggle {
+	min-width: 120px;
+}
+
+
