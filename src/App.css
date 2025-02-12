@@ -263,34 +263,3 @@ h3 {
 	padding-bottom: 0.5px;
 	grid-area: 1 / 2 / 2 / 3;
 }
-
-/* ---- Footer ---- */
-.footer {
-	position: fixed;
-	height: 55px;
-	bottom: 0;
-	width: 100%;
-	background-color: #e8e8e8;
-}
-
-.footer-list-item {
-	text-decoration: none;
-	display: inline;
-}
-.footer-list-item + .footer-list-item::before {
-	content: ' | ';
-}
-.built-by {
-	color: #585858;
-}
-
-a {
-	/* text-decoration: none !important; */
-	color: #585858;
-}
-
-a:hover {
-	color: #ff9e0b;
-}
-
-/* accordian */
